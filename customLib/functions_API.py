@@ -6,11 +6,11 @@ def chargement_data():
 
     path = r"generated_files"
 
-    path_data_test = path + r'\data_test_preprocessed.csv'
-    path_data_global_feat = path +  r'\global_feature_importance_sorted_bis.csv'
-    path_model =  path + r'\modele_LR_precise'
-    path_valid_id = path + r'\valid_IDs_bis.csv'
-    path_explainer = path + r'\explainer_file'
+    path_data_test = path + r'/data_test_preprocessed.csv'
+    path_data_global_feat = path +  r'/global_feature_importance_sorted_bis.csv'
+    path_model =  path + r'/modele_LR_precise'
+    path_valid_id = path + r'/valid_IDs_bis.csv'
+    path_explainer = path + r'/explainer_file'
 
     data_test = pd.read_csv(path_data_test)
     data_global_feat = pd.read_csv(path_data_global_feat)
