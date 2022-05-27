@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$APPLICATION_CONFIG_DIR$/projects/Dashboard/.idea/Dashboard.iml" filepath="$APPLICATION_CONFIG_DIR$/projects/Dashboard/.idea/Dashboard.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/.idea/Downloads.iml" filepath="$USER_HOME$/Downloads/.idea/Downloads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/P7_OC.iml" filepath="$PROJECT_DIR$/.idea/P7_OC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../crypto/Projet EA/.idea/Projet EA.iml" filepath="$PROJECT_DIR$/../../crypto/Projet EA/.idea/Projet EA.iml" />
+    </modules>
+  </component>
+</project>
