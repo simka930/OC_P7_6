@@ -9,7 +9,7 @@ import ast
 
 
 # URLs
-API_url = "http://127.0.0.1:8000/"
+API_url = "https://dashboardscoringcredit.herokuapp.com/"
 
 API_url_proba = API_url + "get-proba/"
 API_url_means = API_url + "get_means/"
