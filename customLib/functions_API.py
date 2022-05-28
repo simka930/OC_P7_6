@@ -85,7 +85,7 @@ def get_prediction_and_explaination(data, client_id, model_local, explainer):
     class_target = int(proba_to_class(y_pred_proba, threshold=0.8))
 
     local_explaination = explainer.explain_instance(data_client.squeeze(), model_local.predict_proba,
-                                                    num_features=239, num_samples = 500)
+                                                    num_features=239, num_samples = 1500)
     local_explaination_list = local_explaination.as_list()
     local_explaination_map = local_explaination.as_map()
 
