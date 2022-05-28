@@ -12,7 +12,7 @@ data_test,model,data_global_feat, valid_ids, explainer = chargement_data()
 
 # endpoint to get the prediction and explaination (via LIME) of a specific client via his ID
 @app.get("/get-proba/{client_id}")
-def get_proba_explaination_api(client_id: int = Path(None, description="Expecting client ID")):
+async def get_proba_explaination_api(client_id: int = Path(None, description="Expecting client ID")):
     return get_prediction_and_explaination(data_test, client_id, model, explainer)
 
 
