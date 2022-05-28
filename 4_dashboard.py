@@ -55,7 +55,7 @@ if id_input:
         API_url_client = API_url_proba + id_input
 
         # loading spinner
-        with st.spinner('Chargement du score du client (Peut prendre jusqu'à 30 secondes)...'):
+        with st.spinner("Chargement du score du client (Peut prendre jusqu'à 30 secondes)..."):
 
             # st.session state is used to NOT reload the whole prediction
             # if a widget state is changed, if ID has not changed.
